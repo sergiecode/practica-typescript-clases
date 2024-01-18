@@ -1,5 +1,5 @@
 
-# README - TypeScript Explicación de clases
+# TypeScript Explicación de clases
 
 Este repositorio contiene una implementación básica de una clase de negocios en TypeScript. La clase `Negocio` sirve como un molde para representar diversos tipos de negocios, proporcionando funcionalidades como la verificación del horario de apertura, servicios de entrega y la capacidad de recibir recomendaciones.
 
