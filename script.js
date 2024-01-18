@@ -45,11 +45,11 @@ class Negocio {
             return 'Está cerrado';
         }
     }
-    delivery(distancia) {
-        return distancia > 15 ? "El servicio de delivery no está disponible" : 'El servicio de delivery está disponible';
-    }
-    recomendar() {
-        return `${this.nombre} agradece tu recomendación`;
+   function BorrarUltimoCaracter() {
+      const valorPantalla = document.getElementById('pantalla').value;
+      document.getElementById('pantalla').value = valorPantalla.slice(0,-2)
+  }
+
     }
 }
 // Acá instanciamos (se crea) un negocio peluquería con los siguientes atributos:
